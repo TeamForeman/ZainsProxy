@@ -14,7 +14,7 @@ app.use('/bundles', router.bundles);
 // Handling AJAX requests to the API by passing off requests to the api router
 app.use('/api', router.api);
 
-app.get('/listings/*', (req, res) => {
+app.get('/listing/*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '..', 'public/index.html'));
 });
 
