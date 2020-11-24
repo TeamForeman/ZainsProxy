@@ -42,17 +42,17 @@
 
 module.exports = {
   service1: {
-    api: '/homes/photos',
+    api: '/carousel-module/photos/:id',
     url: 'http://localhost:3003',
     bundle: 'bundle.js',
   },
   service2: {
-    api: ['/reservationCost', '/calendar'],
+    api: ['/reservation/calendar', '/reservation/reservationCost'],
     url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
   service3: {
-    api: ['/beartnt/reviews/:id', '/beartnt/ratings/:id'],
+    api: ['/reviews-module/reviews/:id', '/reviews-module/ratings/:id'],
     url: 'http://localhost:3006',
     bundle: 'bundle.js',
   },
