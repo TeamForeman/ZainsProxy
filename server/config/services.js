@@ -43,22 +43,22 @@
 module.exports = {
   service1: {
     api: '/carousel-module/photos/:id',
-    url: 'http://localhost:3003',
+    url: 'http://13.57.185.148:3003',
     bundle: 'bundle.js',
   },
   service2: {
     api: ['/reservation/calendar', '/reservation/reservationCost'],
-    url: 'http://localhost:3001',
+    url: 'http://18.219.68.43:3001',
     bundle: 'bundle.js',
   },
   service3: {
     api: ['/reviews-module/reviews/:id', '/reviews-module/ratings/:id'],
-    url: 'http://localhost:3006',
+    url: 'http://18.223.97.190:3006',
     bundle: 'bundle.js',
   },
   service4: {
     api: ['/more/listings/:id', '/more/users/:id/favorites'],
-    url: 'http://localhost:3004',
+    url: 'http://54.183.104.214:3004/',
     bundle: 'bundle.js',
   },
 };
