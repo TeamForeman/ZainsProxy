@@ -62,3 +62,4 @@ module.exports = {
     bundle: 'bundle.js',
   },
 };
+
